@@ -1,0 +1,1 @@
+ prefect deployment set-schedule etl-parent-flow/ame --cron "0 5 1 * *"
