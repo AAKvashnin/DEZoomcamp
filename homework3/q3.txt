@@ -1,0 +1,5 @@
+SELECT
+   count(*)
+FROM
+   bindings.`fhv_data`
+WHERE PUlocationID is null and DOlocationID is null
