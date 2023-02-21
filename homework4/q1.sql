@@ -1,0 +1,1 @@
+select count(*) from dbt_aakvashnin.fact_trips where pickup_datetime>='2019-01-01' and pickup_datetime<'2021-01-01';
